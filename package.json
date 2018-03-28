@@ -11,7 +11,10 @@
     "url": "git+https://github.com/gin-lsl/iso-week-num.git"
   },
   "keywords": [
-    "iso week num"
+    "isoweeknum",
+    "isoweek",
+    "iso-week-num",
+    "iso-week"
   ],
   "author": "gin-lsl <gin_lsl@outlook.com>",
   "license": "ISC",
