@@ -1,6 +1,6 @@
 {
   "name": "@gin-lsl/iso-week-num",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "iso week num",
   "main": "index.js",
   "scripts": {
