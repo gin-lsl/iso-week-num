@@ -17,7 +17,7 @@ function setMonthAndDate(originDate, monthNumber, dateNumber) {
 function getMonthsCount(year) {
 
   var MONTHS_COUNT = [31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
-  if (year % 4 === 0 && year % 100 !== 0) {
+  if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
     MONTHS_COUNT.unshift(31, 29);
   } else {
     MONTHS_COUNT.unshift(31, 28);
